@@ -664,6 +664,12 @@ p.p-small {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  #mu-featured-slider {
+    display: flex;
+    justify-content: center;
+    background-color: #4eabde;
+  }
+
   .mu-featured-slider-content {
     left: 0;
     right: 0;
