@@ -175,8 +175,9 @@ ul.nav.navbar-nav.navbar-right {
 
 #mu-featured-slider {
   display: flex;
+  padding: 1.8% 0 2.2% 0;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #4eabde;
 }
 
