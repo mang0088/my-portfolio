@@ -700,6 +700,14 @@ p.p-small {
   ul.nav.navbar-nav.navbar-right {
     background-color: rgba(0, 0, 0, 0.4);
   }
+
+  .timeline-event-icon {
+    margin: 0.5em 0.5em 0.5em -0.2em;
+  }
+
+  .cta-info h3 {
+    padding: 0 0.5em 0 0.5em;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
