@@ -648,6 +648,10 @@ li.list-inline-item.text-center p {
   color: #000000;
 }
 
+li.list-inline-item.text-center {
+  min-width: 135px;
+}
+
 /* Footer */
 
 .footer {
