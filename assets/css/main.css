@@ -718,6 +718,22 @@ p.p-small {
   .col-lg-4.offset-lg-1 {
     padding-top: 1rem;
   }
+
+  .col-lg-4.offset-lg-1 h2 {
+    font-size: 30px;
+  }
+
+  .col-lg-5.offset-lg-1.mb-5.mb-lg-0 {
+    width: 100%;
+  }
+
+  button.btn.btn-primary.btn-shadow.btn-lg {
+    width: 100%;
+  }
+
+  .p-5 {
+    padding: 1rem 1.5rem !important;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -786,6 +802,22 @@ p.p-small {
 
   .col-lg-4.offset-lg-1 {
     padding-top: 1rem;
+  }
+
+  .col-lg-4.offset-lg-1 h2 {
+    font-size: 30px;
+  }
+
+  .col-lg-5.offset-lg-1.mb-5.mb-lg-0 {
+    width: 100%;
+  }
+
+  button.btn.btn-primary.btn-shadow.btn-lg {
+    width: 100%;
+  }
+
+  .p-5 {
+    padding: 1rem 1.5rem !important;
   }
 }
 
