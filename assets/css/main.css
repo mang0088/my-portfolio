@@ -400,6 +400,42 @@ ul.nav.navbar-nav.navbar-right {
   padding: 0.25em 1em 0.2em 1em;
 }
 
+/* Skills */
+
+#skills {
+  padding: 5px 0 5px 0;
+  background: #f3f3f3;
+}
+
+#skills h1,
+#skills h3 {
+  color: #000000;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.skill-container img {
+  height: 64px;
+  width: 64px;
+}
+
+.skill-container li {
+  text-align: center;
+}
+
+.skill-container li:nth-child(even) {
+  align-self: flex-end;
+}
+
+.skill-container li:nth-child(odd) {
+  align-self: flex-start;
+}
+
 /* BLOG Section */
 
 #blog {
@@ -734,6 +770,11 @@ p.p-small {
   .p-5 {
     padding: 1rem 1.5rem !important;
   }
+
+  .skill-container {
+    height: auto;
+    flex-direction: column;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -818,6 +859,11 @@ p.p-small {
 
   .p-5 {
     padding: 1rem 1.5rem !important;
+  }
+
+  .skill-container {
+    height: auto;
+    flex-direction: column;
   }
 }
 
