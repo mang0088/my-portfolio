@@ -799,7 +799,7 @@ p.p-small {
 
   .skill-container ul:nth-child(5) {
     min-height: auto;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .skill-container ul:nth-child(1) li:nth-child(even) {
@@ -819,7 +819,6 @@ p.p-small {
   }
 
   .skill-container ul:nth-child(5) li:nth-child(even) {
-    margin-right: 1rem;
     align-self: flex-start;
   }
 
@@ -932,7 +931,7 @@ p.p-small {
 
   .skill-container ul:nth-child(5) {
     min-height: auto;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .skill-container ul:nth-child(1) li:nth-child(even) {
@@ -952,7 +951,6 @@ p.p-small {
   }
 
   .skill-container ul:nth-child(5) li:nth-child(even) {
-    margin-right: 1rem;
     align-self: flex-start;
   }
 
