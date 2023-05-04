@@ -798,6 +798,7 @@ p.p-small {
   }
 
   .skill-container ul:nth-child(5) {
+    min-height: auto;
     justify-content: space-between;
   }
 
@@ -926,6 +927,7 @@ p.p-small {
   }
 
   .skill-container ul:nth-child(5) {
+    min-height: auto;
     justify-content: space-between;
   }
 
