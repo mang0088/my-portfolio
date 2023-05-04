@@ -823,7 +823,7 @@ p.p-small {
   }
 
   .skill-container ul:nth-child(5) li:nth-child(odd) {
-    padding-right: 0.8rem;
+    padding: 0 !important;
     align-self: flex-start;
   }
 
