@@ -800,6 +800,7 @@ p.p-small {
   .skill-container ul:nth-child(5) {
     min-height: auto;
     justify-content: space-between;
+    margin-right: 1rem;
   }
 
   .skill-container ul:nth-child(1) li:nth-child(even) {
@@ -933,6 +934,7 @@ p.p-small {
   .skill-container ul:nth-child(5) {
     min-height: auto;
     justify-content: space-between;
+    margin-right: 1rem;
   }
 
   .skill-container ul:nth-child(1) li:nth-child(even) {
