@@ -797,11 +797,31 @@ p.p-small {
     padding-left: 1rem;
   }
 
-  .skill-container ul:nth-child(odd) li:nth-child(even) {
+  .skill-container ul:nth-child(5) {
+    justify-content: space-between;
+  }
+
+  .skill-container ul:nth-child(1) li:nth-child(even) {
     align-self: flex-end;
   }
 
-  .skill-container ul:nth-child(odd) li:nth-child(odd) {
+  .skill-container ul:nth-child(1) li:nth-child(odd) {
+    align-self: flex-start;
+  }
+
+  .skill-container ul:nth-child(3) li:nth-child(even) {
+    align-self: flex-end;
+  }
+
+  .skill-container ul:nth-child(3) li:nth-child(odd) {
+    align-self: flex-start;
+  }
+
+  .skill-container ul:nth-child(5) li:nth-child(even) {
+    align-self: flex-start;
+  }
+
+  .skill-container ul:nth-child(5) li:nth-child(odd) {
     align-self: flex-start;
   }
 
@@ -904,11 +924,31 @@ p.p-small {
     padding-left: 1rem;
   }
 
-  .skill-container ul:nth-child(odd) li:nth-child(even) {
+  .skill-container ul:nth-child(5) {
+    justify-content: space-between;
+  }
+
+  .skill-container ul:nth-child(1) li:nth-child(even) {
     align-self: flex-end;
   }
 
-  .skill-container ul:nth-child(odd) li:nth-child(odd) {
+  .skill-container ul:nth-child(1) li:nth-child(odd) {
+    align-self: flex-start;
+  }
+
+  .skill-container ul:nth-child(3) li:nth-child(even) {
+    align-self: flex-end;
+  }
+
+  .skill-container ul:nth-child(3) li:nth-child(odd) {
+    align-self: flex-start;
+  }
+
+  .skill-container ul:nth-child(5) li:nth-child(even) {
+    align-self: flex-start;
+  }
+
+  .skill-container ul:nth-child(5) li:nth-child(odd) {
     align-self: flex-start;
   }
 
