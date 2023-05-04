@@ -819,12 +819,11 @@ p.p-small {
   }
 
   .skill-container ul:nth-child(5) li:nth-child(even) {
-    margin-right: 0.8rem;
+    margin-right: 1.2rem;
     align-self: flex-start;
   }
 
   .skill-container ul:nth-child(5) li:nth-child(odd) {
-    margin-left: 1rem;
     align-self: flex-start;
   }
 
@@ -953,12 +952,11 @@ p.p-small {
   }
 
   .skill-container ul:nth-child(5) li:nth-child(even) {
-    margin-right: 0.8rem;
+    margin-right: 1.2rem;
     align-self: flex-start;
   }
 
   .skill-container ul:nth-child(5) li:nth-child(odd) {
-    margin-left: 1rem;
     align-self: flex-start;
   }
 
