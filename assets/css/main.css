@@ -794,6 +794,7 @@ p.p-small {
   .skill-container {
     height: auto;
     flex-direction: column;
+    padding-left: 1rem;
   }
 
   .skill-container ul:nth-child(odd) li:nth-child(even) {
@@ -900,6 +901,7 @@ p.p-small {
   .skill-container {
     height: auto;
     flex-direction: column;
+    padding-left: 1rem;
   }
 
   .skill-container ul:nth-child(odd) li:nth-child(even) {
