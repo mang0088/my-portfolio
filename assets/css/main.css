@@ -834,6 +834,10 @@ p.p-small {
   .skill-container ul:nth-child(even) li:nth-child(even) {
     align-self: flex-end;
   }
+
+  #contact {
+    padding: 58.5px 0 0.5px 0;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -961,6 +965,10 @@ p.p-small {
 
   .skill-container ul:nth-child(even) li:nth-child(even) {
     align-self: flex-end;
+  }
+
+  #contact {
+    padding: 58.5px 0 0.5px 0;
   }
 }
 
