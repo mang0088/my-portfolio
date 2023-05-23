@@ -456,10 +456,120 @@ ul.nav.navbar-nav.navbar-right {
   align-self: flex-start;
 }
 
+/* Portfolio */
+
+#portfolio {
+  background-color: #ffffff;
+  display: inline;
+  float: left;
+  padding: 20px 0 20px 0;
+  width: 100%;
+}
+
+.carousel {
+  overflow: hidden;
+  position: relative;
+  margin-inline: auto;
+}
+
+.carousel .skip:focus-visible {
+  transform: translateY(0);
+}
+
+.carousel .actions {
+  width: 100%;
+}
+
+.carousel .actions .previous,
+.carousel .actions .forwards {
+  font-size: 1rem;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 44px / 2);
+  height: 54px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  border: 0;
+  padding: 0;
+  background: #425bb5;
+  color: white;
+  transition: background 0.2s ease;
+}
+
+.carousel .actions .previous:hover,
+.carousel .actions .forwards:hover {
+  background: #ff6347;
+}
+
+.carousel .actions .previous {
+  left: 5px;
+}
+.carousel .actions .forwards {
+  right: 5px;
+}
+
+.carousel .container {
+  margin-inline: auto;
+  overflow-x: scroll;
+  overflow-y: visible;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 0.5rem;
+  position: relative;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .carousel .container {
+    scroll-behavior: smooth;
+  }
+}
+
+.carousel .container .slides {
+  list-style: none;
+  padding-bottom: 0.8rem;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.carousel .container .slides .slide {
+  height: 100%;
+  width: 100%;
+  padding: 0 0.6rem;
+}
+
+.carousel .container .slides .slide img {
+  width: calc(900px / 3);
+  aspect-ratio: 4/3;
+  scroll-snap-align: center;
+}
+
+.carousel * {
+  scrollbar-width: auto;
+  scrollbar-color: #000000 #ffffff;
+}
+
+.carousel *::-webkit-scrollbar {
+  width: 16px;
+}
+
+.carousel *::-webkit-scrollbar-track {
+  background: #ffffff;
+  margin-left: 1.8rem;
+  margin-right: 0.3rem;
+}
+
+.carousel *::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
 /* BLOG Section */
 
 #blog {
-  background-color: #ffffff;
+  background-color: #f3f3f3;
   display: inline;
   float: left;
   padding: 20px 0 20px 0;
@@ -668,7 +778,7 @@ ul.nav.navbar-nav.navbar-right {
 #contact {
   display: inline;
   float: left;
-  background-color: #f3f3f3 !important;
+  background-color: #ffffff !important;
   padding: 58.5px 0 48.5px 0;
   width: 100%;
 }
