@@ -519,6 +519,18 @@ ul.nav.navbar-nav.navbar-right {
   position: relative;
 }
 
+.carousel .card .card-content {
+  padding: 10px 15px;
+}
+
+.carousel .card p {
+  font-size: 14px;
+}
+
+.carousel .card .card-title {
+  color: #000000 !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .carousel .container {
     scroll-behavior: smooth;
